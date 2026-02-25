@@ -1,4 +1,12 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
+	url = https://github.com/kreuzberg-dev/kreuzberg-dev.r-universe.dev
 	branch = HEAD
+[submodule "htmltomarkdown"]
+	path = htmltomarkdown
+	url = https://github.com/kreuzberg-dev/html-to-markdown
+	subdir = packages/r
+[submodule "kreuzberg"]
+	path = kreuzberg
+	url = https://github.com/kreuzberg-dev/kreuzberg
+	subdir = packages/r
